@@ -7,7 +7,7 @@
 ---
 
 ## 🌌 About Me
-- 👤 **Alias:**cyb3rvolt3x㉿A4lixhaS3ntin3l
+- 👤 **Alias:** cyb3rvolt3x㉿A4lixhaS3ntin3l
 - 🎯 **Focused on:** Ethical Hacking, NDA Preparation, and Advanced Studies.  
 - 🔑 **Developer , Manager of Platforms:**  
   - [Maturidhi Sirajul Ilm](https://syedzahidhussain.in) - Islamic Education  
