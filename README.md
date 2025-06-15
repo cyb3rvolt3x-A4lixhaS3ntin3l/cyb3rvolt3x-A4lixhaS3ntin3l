@@ -1,4 +1,4 @@
-<h1 align="center">Hey, I'm <span style="color:#8A2BE2;">Cyb3rVolt3x ⚡</span></h1>
+<h1 align="center">Hey, I'm <span style="color:#8A2BE2;">cyb3rvolt3x㉿A4lixhaS3ntin3l ⚡</span></h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8A2BE2&width=600&lines=Cybersecurity+Specialist+in+Progress;Aspiring+NDA+Officer;Tech+Visionary;Hacking+the+Future;Founder+of+KashmirTradeHub" alt="Typing Animation"/>
@@ -7,7 +7,7 @@
 ---
 
 ## 🌌 About Me
-- 👤 **Alias:** Cyb3rVolt3x  
+- 👤 **Alias:**cyb3rvolt3x㉿A4lixhaS3ntin3l
 - 🎯 **Focused on:** Ethical Hacking, NDA Preparation, and Advanced Studies.  
 - 🔑 **Developer , Manager of Platforms:**  
   - [Maturidhi Sirajul Ilm](https://syedzahidhussain.in) - Islamic Education  
