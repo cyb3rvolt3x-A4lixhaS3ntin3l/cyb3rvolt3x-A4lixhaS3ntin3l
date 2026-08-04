@@ -198,6 +198,16 @@ Currently forging a **next-generation CMS / full-stack platform stack** under cl
   <img src="./assets/divider.svg" width="75%" alt=""/>
 </div>
 
+## ▌ CONTRIBUTION SNAKE
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/cyb3rvolt3x-A4lixhaS3ntin3l/cyb3rvolt3x-A4lixhaS3ntin3l/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="75%" alt=""/>
+</div>
+
 ## ▌ CURRENT FOCUS — 2026
 
 ```bash
