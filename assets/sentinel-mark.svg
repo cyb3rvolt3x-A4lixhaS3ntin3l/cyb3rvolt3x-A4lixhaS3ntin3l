@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="Sentinel mark">
+  <defs>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#39ff14"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="180" height="180" fill="#050a0f"/>
+  <g transform="translate(90,90)" filter="url(#glow)">
+    <circle r="70" fill="none" stroke="#00f0ff" stroke-opacity="0.2" stroke-width="1"/>
+    <circle r="52" fill="none" stroke="url(#ring)" stroke-width="2" stroke-dasharray="12 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="34" fill="none" stroke="#ff2a4a" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M0 -28 L18 -8 L12 22 L-12 22 L-18 -8 Z" fill="none" stroke="#39ff14" stroke-width="2.2"/>
+    <circle r="5" fill="#00f0ff"/>
+  </g>
+</svg>

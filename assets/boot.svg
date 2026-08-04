@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="boot sequence">
+  <defs>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#071012"/>
+      <stop offset="100%" stop-color="#04080a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="10" fill="url(#panel)" stroke="#13353a" stroke-width="2"/>
+  <rect x="14" y="12" width="12" height="12" rx="2" fill="#ff2a4a" opacity="0.9"/>
+  <rect x="32" y="12" width="12" height="12" rx="2" fill="#e6c35c" opacity="0.85"/>
+  <rect x="50" y="12" width="12" height="12" rx="2" fill="#39ff14" opacity="0.9"/>
+  <text x="78" y="23" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#5f8a84">SENTINEL_CORE  tty1</text>
+
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13">
+    <text x="28" y="58" fill="#39ff14">$</text>
+    <text x="48" y="58" fill="#9fd9ce">
+      <tspan>boot --identity cyb3rvolt3x</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.2s" fill="freeze"/>
+    </text>
+    <text x="28" y="86" fill="#7aa8a0" opacity="0">
+      <tspan>[OK] full-stack runtime mounted</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.8s" fill="freeze"/>
+    </text>
+    <text x="28" y="110" fill="#7aa8a0" opacity="0">
+      <tspan>[OK] pentest kit / ethical channel active</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/>
+    </text>
+    <text x="28" y="134" fill="#7aa8a0" opacity="0">
+      <tspan>[OK] platform forge · private R&amp;D online</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/>
+    </text>
+    <text x="28" y="158" fill="#00f0ff" opacity="0">
+      <tspan>status: HIREABLE · hire · build · harden</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.6s" fill="freeze"/>
+    </text>
+    <text x="28" y="190" fill="#39ff14" opacity="0">
+      <tspan>$ ready_</tspan>
+      <animate attributeName="opacity" values="0;1;0;1" dur="1.2s" begin="3.1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

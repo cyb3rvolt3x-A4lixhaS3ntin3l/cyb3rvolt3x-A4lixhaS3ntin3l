@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="48" viewBox="0 0 1100 48" role="img" aria-label="neon divider">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a4a" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#ff2a4a"/>
+      <stop offset="50%" stop-color="#00f0ff"/>
+      <stop offset="82%" stop-color="#39ff14"/>
+      <stop offset="100%" stop-color="#39ff14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1100" height="48" fill="transparent"/>
+  <path d="M20 24 H480 L500 12 L520 36 L540 24 H1080" fill="none" stroke="url(#line)" stroke-width="2" filter="url(#g)">
+    <animate attributeName="stroke-dasharray" values="0 1100;1100 0" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="520" cy="24" r="4" fill="#00f0ff" filter="url(#g)">
+    <animate attributeName="r" values="3;6;3" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="550" y="42" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9" fill="#5c857d" letter-spacing="3">// SIGNAL LOCKED</text>
+</svg>
