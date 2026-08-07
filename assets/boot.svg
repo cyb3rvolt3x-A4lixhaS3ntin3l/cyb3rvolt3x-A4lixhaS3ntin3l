@@ -9,13 +9,13 @@
   <rect x="14" y="12" width="12" height="12" rx="2" fill="#ff2a4a" opacity="0.9"/>
   <rect x="32" y="12" width="12" height="12" rx="2" fill="#e6c35c" opacity="0.85"/>
   <rect x="50" y="12" width="12" height="12" rx="2" fill="#39ff14" opacity="0.9"/>
-  <text x="78" y="23" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#5f8a84">SENTINEL_CORE  tty1</text>
+  <text x="78" y="23" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#5f8a84">SENTINEL_CORE // tty1</text>
 
   <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13">
     <text x="28" y="58" fill="#39ff14">$</text>
-    <text x="48" y="58" fill="#9fd9ce">
+    <text x="48" y="58" fill="#9fd9ce" opacity="0">
       <tspan>boot --identity cyb3rvolt3x</tspan>
-      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.2s" fill="freeze"/>
     </text>
     <text x="28" y="86" fill="#7aa8a0" opacity="0">
       <tspan>[OK] full-stack runtime mounted</tspan>
